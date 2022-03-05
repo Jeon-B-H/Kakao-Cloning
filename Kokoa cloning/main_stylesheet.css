@@ -1,0 +1,30 @@
+/* font style  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+/* basic css */
+@import "css_files/basic_css/variables.css";
+
+/* component */
+@import "css_files/component/status_bar.css";
+@import "css_files/component/kokoa-bar.css";
+@import "css_files/component/user_component.css";
+@import "css_files/component/kokoa_navi.css";
+@import "css_files/component/kokoa_alarm.css";
+@import "css_files/component/dot_alarm.css";
+@import "css_files/component/kokoa_extra_functions.css";
+@import "css_files/component/no_mobile.css";
+
+/* screens */
+@import "css_files/screens/index.css";
+@import "css_files/screens/friends.css";
+@import "css_files/screens/chats.css";
+@import "css_files/screens/find.css";
+@import "css_files/screens/more.css";
+@import "css_files/screens/settings.css";
+@import "css_files/screens/chat.css";
+@import "css_files/screens/user_component_option.css";
+@import "css_files/screens/splash_screen.css";
+
+body {
+  font-family: "Roboto", sans-serif;
+}

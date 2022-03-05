@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats - Kokoa clon</title>
+    <link rel="stylesheet" href="main_stylesheet.css" />
+    <link rel="stylesheet" href="css_files/basic_css/reset.css" />
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">No Service <i class="fas fa-wifi"></i></div>
+        <div class="status-bar__column">03:09</div>
+        <div class="status-bar__column">100% <i class="fas fa-battery-full fa-lg"></i><i class="fas fa-bolt"></i></div>
+    </div>
+
+    <div class="kokoa-bar">
+        <span>Chats</span>
+        <div class="kokoa-bar__icons">
+            <span>
+                <i class="fas fa-search fa-lg"></i>
+            </span>
+            <span>
+                <i class="far fa-comment-dots fa-lg"></i>
+            </span>
+            <span>
+                <i class="fas fa-music fa-lg"></i>
+            </span>
+            <span>
+                <a href="settings.html"><i class="fas fa-cog fa-lg"></i></a>
+            </span>
+        </div>
+    </div>
+
+    <div class="user-component chat-profile">
+        <a href="chat_banana.html">
+            <div class="user-component__column">
+                <img src="https://yt3.ggpht.com/ytc/AKedOLR_BEoAn7NTriaByOVNEXx-Mq3cDSupBFA_kcre=s900-c-k-c0x00ffffff-no-rj" />
+                <div class="user-component__column__info">
+                    <span>banana</span>
+                    <span>졸립다.</span>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <span>21:22</span>
+                <span class="kokoa__alarm chat__alarm">3</span>
+            </div>
+        </a>
+    </div>
+
+    <div class="user-component chat-profile">
+        <a href="chat_cat.html">
+            <div class="user-component__column">
+                <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/0348bdaa-409d-4db0-aaab-e54cc88df99c-profile_image-300x300.png" />
+                <div class="user-component__column__info">
+                    <span>cat</span>
+                    <span>놀자.</span>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <span>07:49</span>
+                <span class="kokoa__alarm chat__alarm">4</span>
+            </div>
+        </a>
+    </div>
+    
+    <div id="no-mobile">
+        <span>Your screen is too big</span>
+    </div>
+
+    <div class="kokoa-navi">
+        <ul class="kokoa-navi__list">
+            <li class="kokoa-navi__btn"><a class="navi__link" href="friends.html"><i class="fas fa-user fa-2x navi-icon"></i></a></li>
+            <li class="kokoa-navi__btn"><div class="navi-btn__chats"><a class="navi__link current-page" href="chats.html"><span class="kokoa__alarm kokoa-navi__alarm">7</span><i class="fas fa-comment fa-2x navi-icon"></i></a></div></li>
+            <li class="kokoa-navi__btn"><a class="navi__link" href="find.html"><i class="fas fa-search fa-2x navi-icon"></i></a></li>
+            <li class="kokoa-navi__btn"><div class="navi-btn_more"></div><a class="navi__link" href="more.html"><i class="fas fa-ellipsis-h fa-2x navi-icon"></i><span class="navi-more__alarm dot-alarm"></span></a></div></li>
+        </ul>
+    </div>
+
+    <script
+    src="https://kit.fontawesome.com/6478f529f2.js"
+    crossorigin="anonymous"></script>
+</body>
+</html>
