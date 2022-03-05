@@ -1,0 +1,81 @@
+/* setting-bar */
+.setting-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 10px;
+}
+
+.setting-bar__column {
+  width: 33%;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.setting-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  font-weight: 800;
+}
+
+.setting-bar__column:last-child {
+  display: flex;
+  justify-content: end;
+}
+
+/* settings transition */
+.setting-bar__column i {
+  transition: all 0.5s ease-in-out;
+}
+
+.setting-bar__column i:hover {
+  color: white;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+/* settings element - top part */
+.setting-bar__element {
+  margin: 40px 25px;
+  display: flex;
+  justify-content: space-between;
+
+  transition: all 0.5s ease-in-out;
+}
+
+.setting-bar__element__column:first-child {
+  display: flex;
+  font-size: 23px;
+}
+
+.setting-bar__element__column:last-child {
+  display: flex;
+  align-items: center;
+}
+
+.setting-bar__element__image {
+  margin-right: 15px;
+  width: 25px;
+  opacity: 0.8;
+}
+
+.setting-bar__element__name {
+  font-weight: 800;
+  opacity: 0.8;
+}
+
+.setting-bar__element__column:last-child span {
+  font-size: 20px;
+  font-weight: 800;
+  opacity: 0.5;
+}
+
+.setting-bar__top {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+/* transition */
+.setting-bar__element:hover {
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+}
