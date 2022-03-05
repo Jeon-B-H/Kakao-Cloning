@@ -1,0 +1,54 @@
+/* basic user component structure */
+.user-component {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0px 10px;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+
+.user-component__column {
+  display: flex;
+  align-items: center;
+}
+
+/* basic user component structure --- image */
+.user-component__column:first-child img {
+  width: 80px;
+  height: 80px;
+  border-radius: 30px;
+}
+
+/* basic user component structure --- user's info */
+.user-component__column__info {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-component__column__info span:first-child {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.user-component__column__info span {
+  display: flex;
+  align-items: center;
+}
+/* basic user component structure --- user-component__column:last-child */
+.user-component__column:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 10px;
+}
+
+/* transition */
+.user-component:not(.more-profile):hover {
+  padding: 5px 5px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}

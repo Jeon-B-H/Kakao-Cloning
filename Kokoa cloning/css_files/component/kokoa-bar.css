@@ -1,0 +1,56 @@
+/* control kokoa bar element */
+
+.kokoa-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 12px;
+}
+
+.kokoa-bar > span {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.kokoa-bar__icons span {
+  padding-left: 15px;
+}
+
+.kokoa-bar span {
+  opacity: 0.8;
+}
+
+.kokoa-bar__icons span:last-child {
+  position: relative;
+}
+
+.option-btn__position {
+  position: absolute;
+  right: -5px;
+  top: -7px;
+}
+
+/* applying effects to the elements */
+
+.kokoa-bar__icons span i {
+  transition: all 0.3s ease-in-out;
+}
+
+.kokoa-bar__icons span i:hover {
+  color: white;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.kokoa-bar__icons span:last-child i:hover {
+  animation: kokoa-bar__option-btn__anime 1s linear infinite;
+}
+
+@keyframes kokoa-bar__option-btn__anime {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
